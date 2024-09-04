@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67109" started-at="2024-09-04T21:43:21 GST" finished-at="2024-09-04T21:44:28 GST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="67109" started-at="2024-09-04T21:43:21 GST" finished-at="2024-09-04T21:44:28 GST">
+      <class name="testcases.EditIndividual">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testcases.EditIndividual@545997b1]" name="setValues" is-config="true" duration-ms="0" started-at="2024-09-04T21:43:21 GST" finished-at="2024-09-04T21:43:21 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:testcases.EditIndividual@545997b1]" name="preCondition" is-config="true" duration-ms="8189" started-at="2024-09-04T21:43:22 GST" finished-at="2024-09-04T21:43:30 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="editTestCase(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.EditIndividual@545997b1]" name="editTestCase" duration-ms="57531" started-at="2024-09-04T21:43:30 GST" data-provider="provideData" finished-at="2024-09-04T21:44:28 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinothkumar@testleaf.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SeleniumChallenge@24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shibani]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a aria-disabled="false" role="combobox" aria-describedby="1480:0-label" tabindex="0" aria-expanded="true" aria-required="false" aria-haspopup="true" title="" class="select" data-aura-rendered-by="1490:0" href="javascript:void(0);" data-interactive-lib-uid="4">...</a> is not clickable at point (524, 288). Other element would receive the click: <a data-aura-rendered-by="2141:0" href="javascript:void(0);" role="option" aria-disabled="false" tabindex="0" title="--None--" aria-selected="false">...</a>
+  (Session info: chrome=128.0.6613.119)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bde6a9d4822a4e490f3c922af79b5398, clickElement {id=f.B781C93323EF8CD705C49E158BB22BCF.d.07F1AB65281747B54710585F259607FC.e.355}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: /var/folders/m4/hnw9sm595h1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52755/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (bde6a9d4822a4e490f3c922af79b5398)] -> xpath: //a[text()='Ms.']]
+Session ID: bde6a9d4822a4e490f3c922af79b5398]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a aria-disabled="false" role="combobox" aria-describedby="1480:0-label" tabindex="0" aria-expanded="true" aria-required="false" aria-haspopup="true" title="" class="select" data-aura-rendered-by="1490:0" href="javascript:void(0);" data-interactive-lib-uid="4">...</a> is not clickable at point (524, 288). Other element would receive the click: <a data-aura-rendered-by="2141:0" href="javascript:void(0);" role="option" aria-disabled="false" tabindex="0" title="--None--" aria-selected="false">...</a>
+  (Session info: chrome=128.0.6613.119)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bde6a9d4822a4e490f3c922af79b5398, clickElement {id=f.B781C93323EF8CD705C49E158BB22BCF.d.07F1AB65281747B54710585F259607FC.e.355}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: /var/folders/m4/hnw9sm595h1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52755/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (bde6a9d4822a4e490f3c922af79b5398)] -> xpath: //a[text()='Ms.']]
+Session ID: bde6a9d4822a4e490f3c922af79b5398
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at pages.EditPage.editTitle(EditPage.java:14)
+at testcases.EditIndividual.editTestCase(EditIndividual.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editTestCase -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.EditIndividual@545997b1]" name="postCondition" is-config="true" duration-ms="290" started-at="2024-09-04T21:44:28 GST" finished-at="2024-09-04T21:44:28 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.EditIndividual -->
+      <class name="testcases.CreateIndividual">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testcases.CreateIndividual@704921a5]" name="setValues" is-config="true" duration-ms="8" started-at="2024-09-04T21:43:21 GST" finished-at="2024-09-04T21:43:21 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:testcases.CreateIndividual@704921a5]" name="preCondition" is-config="true" duration-ms="7815" started-at="2024-09-04T21:43:22 GST" finished-at="2024-09-04T21:43:30 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="CreateTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.CreateIndividual@704921a5]" name="CreateTest" duration-ms="43798" started-at="2024-09-04T21:43:30 GST" data-provider="provideData" finished-at="2024-09-04T21:44:14 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinothkumar@testleaf.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SeleniumChallenge@24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shibani]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTest -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.CreateIndividual@704921a5]" name="postCondition" is-config="true" duration-ms="361" started-at="2024-09-04T21:44:14 GST" finished-at="2024-09-04T21:44:14 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.CreateIndividual -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
